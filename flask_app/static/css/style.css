@@ -1,0 +1,172 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #20242c;
+}
+
+.login {
+  background-color: white;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.5);
+  border-radius: 20px;
+  padding: 20px 10%;
+}
+
+.logo-content {
+  padding: 40px 5%;
+  /* margin-top: 30px */
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.login-btn {
+  background-color: #e83856;
+  color: white;
+  /* border: 1px solid rgb(225 225 225); */
+  width: 100%;
+  height: 40px;
+  box-shadow: none !important;
+  font-size: 24px;
+  height: 50px;
+}
+
+.login-btn:hover {
+  background-color: #ff526f;
+  color: white;
+}
+
+.login-icon {
+  margin-right: 10px;
+}
+
+.login-input {
+  background-color: white;
+  box-shadow: none !important;
+  height: 40px;
+  font-size: 18px;
+}
+
+.login-input:focus {
+  border: 1px solid #e83856;
+}
+
+.login-input:hover {
+  border: 1px solid #e83856;
+}
+
+.link {
+  color: rgb(58, 58, 58);
+}
+
+.link:hover {
+  color: #e83856;
+}
+
+.link:link { text-decoration: none; }
+
+.label-text {
+  font-size: 18px;
+}
+
+.center {
+  font-size: 22px;
+  text-align: center;
+}
+
+.remember-me{
+  box-shadow: none !important;
+  border: 1px solid lightgray;
+}
+
+.remember-me:empty {
+  background-color:white;
+  border: 1px solid lightgray;
+}
+
+.remember-me:hover {
+  border: 1px solid #e83856;
+}
+
+.remember-me:checked {
+  background-color:#e83856;
+  border: 1px solid #e83856;
+}
+
+.msg {
+  border-radius: 10px;
+  padding: 20px 10%; 
+}
+
+.reset-btn {
+  background-color: #e83856;
+  color: white;
+  /* border: 1px solid rgb(225 225 225); */
+  width: 100%;
+  height: 40px;
+  box-shadow: none !important;
+  font-size: 20px;
+  height: 50px;
+}
+
+.reset-btn:hover {
+  background-color: #e83856;
+  color: white;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+table {
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.4);
+}
+
+thead {
+  color: white;
+  background-color: #30343b;
+}
+
+tbody {
+  background-color: rgb(240, 240, 240);
+}
+
+.table-center {
+  text-align: center;
+}
+
+.dashboard-btn {
+  background-color: #e83856;
+  color: white;
+  box-shadow: none !important;
+  font-size: 12px;
+}
+
+.dashboard-btn:hover {
+  background-color: #ff526f;
+  color: white;
+}
+
+.logout {
+  color: rgb(202, 202, 202);
+}
+
+.logout:hover {
+  color: #e83856;
+}
+
+.logout:link { text-decoration: none; }
+
+.download-link:link { 
+  text-decoration: none;
+}
+
+.download-link {
+  color:white
+}
+
+.download-link:hover {
+  background-color: #e83856;
+  color: white;
+}

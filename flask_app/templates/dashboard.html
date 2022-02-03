@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<div class="page d-flex align-items-center">
+  <div class="container d-flex justify-content-center">
+    <div class="col-4">
+      
+      {% include 'includes/_messages.html' %}
+
+        <!-- dashboard table -->
+        <table class="table table-striped custom-table table-center">
+          <thead>
+            <tr>
+              <th>Filename</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+           {% for file in files%}
+           <tr>
+            <td>{{file}}</td>
+            <td>
+                <a class="btn dashboard-btn" href="{{ url_for('download_file', file_name=file) }}" role="button">Download</a>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </div>
+        </table>      
+
+
+          <!-- logout -->
+          <p class="mb-5"><a href="{{ url_for("logout") }}" class="logout">Logout</a></p>
+        </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
